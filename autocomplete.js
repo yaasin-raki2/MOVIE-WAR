@@ -1,4 +1,4 @@
-const autocomplete = ({ root, renderOption, onOptionSelect, inputValue, fetchData }) => {
+const creatAutocomplete = ({ root, renderOption, onOptionSelect, inputValue, fetchData }) => {
     
     root.innerHTML = `
         <label><b>Search</b></label>
